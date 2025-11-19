@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.36617.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.vbproj", "{006A8D88-BA40-4F15-BD81-B769C1EAC27D}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BringThings", "ClassLibrary2\BringThings.vbproj", "{006A8D88-BA40-4F15-BD81-B769C1EAC27D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
