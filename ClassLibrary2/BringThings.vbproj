@@ -91,6 +91,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="StartMenu_GUI.Designer.vb">
+      <DependentUpon>StartMenu_GUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartMenu_GUI.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Taskbar_GUI.Designer.vb">
+      <DependentUpon>Taskbar_GUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Taskbar_GUI.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="TheOne.Designer.vb">
       <DependentUpon>TheOne.vb</DependentUpon>
     </Compile>
@@ -108,6 +120,12 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="StartMenu_GUI.resx">
+      <DependentUpon>StartMenu_GUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taskbar_GUI.resx">
+      <DependentUpon>Taskbar_GUI.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TheOne.resx">
       <DependentUpon>TheOne.vb</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +140,90 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3643769-building-home-house-main-menu-start_113416.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1455554377_line-10_icon-icons.com_53304.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_local_grocery_store_128_28460.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_local_grocery_store_128_28460.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_world_wide_web_www_globe_communication_website_browser_network_connection_icon_195710.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_world_wide_web_www_globe_communication_website_browser_network_connection_icon_195710.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_90894.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_90894.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Not Done icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_file_image_photo_gallery_icon_219527.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_file_image_photo_gallery_icon_219527.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_picture_user_icon_153847.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_picture_user_icon_153847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart_icon_227406.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart_icon_227406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_find_locate_1542.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_online_web_pc_mac_monitor_icon-icons.com_59975.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_online_web_pc_mac_monitor_icon-icons.com_59975.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task_manager_18854.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task_manager_18854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-Text_256x256_35366.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-Text_256x256_35366.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1266721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2920659-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3643769-building-home-house-main-menu-start_113416.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1455554377_line-10_icon-icons.com_53304.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

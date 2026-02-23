@@ -6,12 +6,14 @@ Public Class TheOne
         BringItBack()
     End Sub
 
+
+
     Public Panel2 As Panel
-    Public TaskbarUserControl As TouchTest.Taskbar_GUI
+    Public TaskbarUserControl As Taskbar_GUI
 
     Public Sub BringItBack()
         Panel2 = ShellCodePart.Form1.funnything()
-        TaskbarUserControl = New TouchTest.Taskbar_GUI
+        TaskbarUserControl = New Taskbar_GUI
         Panel2.Controls.Add(TaskbarUserControl)
         TaskbarUserControl.Dock = DockStyle.Fill
         TaskbarUserControl.BringToFront()

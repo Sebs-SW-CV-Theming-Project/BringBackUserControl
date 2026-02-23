@@ -6,13 +6,16 @@ Public Class Form30
     Public temptimer As New Timer
 
     Private Sub Form30_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        StartMenuGUI = New TouchTest.StartMenu_GUI
-        Me.Controls.Add(StartMenuGUI)
-        StartMenuGUI.Dock = DockStyle.Fill
 
-        temptimer.Interval = 500
-        temptimer.Enabled = True
-        AddHandler temptimer.Tick, AddressOf temptimer_Tick
+
+
+        'StartMenuGUI = New TouchTest.StartMenu_GUI
+        'Me.Controls.Add(StartMenuGUI)
+        'StartMenuGUI.Dock = DockStyle.Fill
+
+        'temptimer.Interval = 500
+        'temptimer.Enabled = True
+        'AddHandler temptimer.Tick, AddressOf temptimer_Tick
     End Sub
 
     Private Sub temptimer_Tick(sender As Object, e As EventArgs)
